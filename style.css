@@ -1,0 +1,22 @@
+#fontHead {
+    animation: change 3s infinite;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: chocolate 3px solid;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -50px;
+}
+
+@keyframes change {
+    from { color: #603808 }
+    to   { color: #000814
+
+    }
+}
+
+.shad{
+    box-shadow: 0px 3px 1.7em #603808;
+}
