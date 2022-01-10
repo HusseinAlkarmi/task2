@@ -7,24 +7,25 @@
     <title>Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <style>     @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');</style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: gray;">
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #2b2d42;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#">Hidden brand</a>
+              <a style="font-family: 'The Nautigal', cursive; font-size: 30px; color: silver;"  class="navbar-brand" href="#">Fooding Place</a>
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="navLink" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="menu.html">Menu</a>
+                  <a class="navLink" href="menu.html">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    <a class=" navLink" href="contactUs.html">Contact Us</a>
                   </li>
                 
               </ul>
@@ -38,34 +39,184 @@
 
     <main>
         
-        <div style="width: 100%;" class="card-deck">
-            <div style="margin: 10px 3%;" class="card">
+        <div class="jumbotron menu-img shad">
+            <h1 class="display-4 menu-font-color">Fooding Place</h1>
+            <p class="lead menu-font-color">The place where you can find the best Burger meals in all of the world</p>
+            <hr class="my-4 ">
+            <p class="menu-font-color">For More Information About Us Click Here</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Contact Us</a>
+          </div>
+        
+
+          <h1 style="margin-top: -17px;" id="fontHead">Menu</h1>
+
+
+          <div class="productMainDiv">
+
+          <div class="productSecondDiv">
+            <input type="radio" name="r" id="r1Product" checked>
+            <input type="radio" name="r" id="r2Product">
+           
+
+            <div class="productSlide s1Product">
+                <img src="https://insanelygoodrecipes.com/wp-content/uploads/2020/05/Burger-with-fries-1024x536.png" alt="">
+                <h2 style="padding-left:57px;">Burger 1</h2>
+                
+            </div>
+            <div class="productSlide">
+                <img src="https://i.pinimg.com/736x/32/f7/15/32f71591c337eedcf2c301ac6c83d09c--burger-with-egg-egg-burger.jpg" alt="">
+                <h2 style="padding-left:57px;">Burger 2</h2>
+            </div>
+            <div class="productSlide">
+                <img src="https://natashaskitchen.com/wp-content/uploads/2019/04/Best-Burger-4-500x375.jpg" alt="">
+                <h2 style="padding-left:57px;">Burger 3</h2>
+            </div>
+            <div class="productSlide">
+                <img src="https://www.simplyrecipes.com/thmb/JlfwHxJhzyjZF2jVlHeDq-SDgcY=/2600x2600/smart/filters:no_upscale()/Simply-Recipes-Mushroom-Swiss-Burger-LEAD-10-e86ce22657bb4a11b5d4b3f4d1230fe3.jpg" alt="">
+                <h2 style="padding-left:57px;">Burger 4</h2>
+            </div>
+            <div class="productSlide">
+                <img src="https://mobkitchen-objects.imgix.net/recipes/2020/9K8A5786.jpg?auto=format&crop=focalpoint&domain=mobkitchen-objects.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=1300&ixlib=php-3.3.1&q=82&w=1300&s=d5cf16c484a3cbe4b557ff406f3e3055" alt="">
+                <h2 style="padding-left:57px;">Burger 5</h2>
+            </div>
+            <div class="productSlide">
+                <img src="https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage108081050-50-TN-American-Style-Dirty-Burger.jpg" alt="">
+                <h2 style="padding-left:57px;">Burger 6</h2>
+            </div>
+            <div class="productSlide">
+                <img src="https://aubreyskitchen.com/wp-content/uploads/2020/12/wagyu-burger.jpg" alt="">
+                <h2 style="padding-left:57px;">Burger 7</h2>
+            </div>
+            <div class="productSlide">
+                <img src="https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Crispy-Chicken-Burger-square-FS-4518.jpg" alt="">
+                <h2 style="padding-left:57px;">Burger 8</h2>
+            </div>
+
+        </div>
+
+        <div class="productNavigation">
+            <label for="r1Product" class="productBar"></label>
+            <label for="r2Product" class="productBar"></label>
+            
+        </div>
+
+    </div>
+
+<h2 id="fontHead" style="position: relative; top:120px">Meals</h2>
+
+
+        <div style="width: 80%; margin-left: 10%; margin-top: 190px;" class="card-deck">
+            <div style="margin: 30px 4%;" class="card">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxAJcSQRs2u2vkyS5GoKLm66Op0CqWt0rjg&usqp=CAU" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+               
               </div>
+              <h3 class="price">Price: $10</h3>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <div style="margin: 10px 1.5%;" class="card">
+            <div style="margin: 30px 2%;" class="card">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsq5s2BWt11d8ydxxXtEYP_SZgCmvwCwCigkDqanUwW8PqvIcHvOhiup4x2X3C8fAWQbk&usqp=CAU" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+               
               </div>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <div style="margin: 10px 3%;" class="card">
+            <div style="margin: 30px 4%;" class="card">
               <img src="https://us.123rf.com/450wm/subbotina/subbotina1905/subbotina190500024/123093476-hamburger-and-double-cheeseburger-with-fries-wooden-table.jpg?ver=6" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                
               </div>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
+
+          <div style="width: 80%; margin-left: 10%; margin-top: 30px;" class="card-deck">
+            <div style="margin: 30px 4%;" class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxAJcSQRs2u2vkyS5GoKLm66Op0CqWt0rjg&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               
+              </div>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div style="margin: 30px 2%;" class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsq5s2BWt11d8ydxxXtEYP_SZgCmvwCwCigkDqanUwW8PqvIcHvOhiup4x2X3C8fAWQbk&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+               
+              </div>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div style="margin: 30px 4%;" class="card">
+              <img src="https://us.123rf.com/450wm/subbotina/subbotina1905/subbotina190500024/123093476-hamburger-and-double-cheeseburger-with-fries-wooden-table.jpg?ver=6" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                
+              </div>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+         
+
     </main>
 
+    <footer style="background-color: #2b2d42;" class="page-footer font-small teal pt-4">
+
+        <!-- Footer Text -->
+        <div class="container-fluid text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row footer-div">
+      
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3 " >
+      
+              <!-- Content -->
+              <h5 class="text-uppercase font-weight-bold footer-h5">Our Products</h5>
+              <p class="footer-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+                repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+                harum esse fugiat. Itaque, culpa?</p>
+      
+                <a href="menu.html"><button type="button" class="btn btn-outline-secondary" style="color: whitesmoke;">Explore Our Products</button></a>
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-3">
+      
+              <!-- Content -->
+              <h5 class="text-uppercase font-weight-bold footer-h5">Location</h5>
+              <p class="footer-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
+                commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
+                excepturi hic.</p>
+      
+                <a href="menu.html"><button type="button" class="btn btn-outline-secondary" style="color: whitesmoke;">Keep In Touch</button></a>
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Text -->
+      
+        <!-- Copyright -->
+        <div style="color: whitesmoke; background-color: black; margin-top: 20px;" class="footer-copyright text-center py-3">© 2022 Copyright: Hussein Alkarmi
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
 
     
 
