@@ -158,4 +158,28 @@ overflow: hidden;
      overflow: hidden;
  }
 
-      
+.price{
+    text-align: center;
+    color: #000814;
+    font-size: 21px;
+}
+
+.card img:hover{
+    opacity: .5;
+}
+.price:hover{
+    opacity: .8;
+    color: #2b2d42;
+}
+
+.contact-img{
+    background-image: url('http://www.shisoburger.com/wp-content/uploads/2020/12/AMP9858-scaled-1.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -200px;
+}
+
+footer{
+    margin-top: 100px;
+}
